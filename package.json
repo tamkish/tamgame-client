@@ -1,0 +1,23 @@
+{
+  "name": "vite-template-solid",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite --port 35143",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "solid-devtools": "^0.30.1",
+    "typescript": "^5.3.3",
+    "vite": "5.4.6",
+    "vite-plugin-solid": "^2.8.2"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.0",
+    "socket.io-client": "^4.8.0",
+    "solid-js": "^1.8.11"
+  }
+}
